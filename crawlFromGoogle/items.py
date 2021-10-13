@@ -7,6 +7,9 @@ import scrapy
 
 
 class CrawlfromgoogleItem(scrapy.Item):
+    key = scrapy.Field()
     title = scrapy.Field()
-    name = scrapy.Field()
+    summary = scrapy.Field()
+    url = scrapy.Field()
+
     pass
